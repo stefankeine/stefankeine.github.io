@@ -29,7 +29,7 @@ h1, h4
 { font: 500 100% 'Source Sans Pro', sans-serif;
   margin: 0 0 5px 0;
   padding: 10px 15 5px 0;
-  color: #0f0f0f;
+  color: #030303;
   /* color: #3f3c38; */
   /* text-transform: uppercase; */
   font-style: none;
@@ -326,7 +326,7 @@ table tr td
 
 .title {
     font-weight: 400;
-    color: #373737;
+    color: #212121;
 }
 
 .handouts {
