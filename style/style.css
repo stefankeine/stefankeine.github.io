@@ -8,7 +8,7 @@ html
   padding: 0;}
 
 body
-{ font: 300 1em 'Source Sans Pro', sans-serif;
+{ font: 300 1.035em 'Source Sans Pro', sans-serif;
   line-height: 1.35;
   background: #F5F5EC;
   color: black; 			/*#050403*/
@@ -16,7 +16,7 @@ body
 
 p
 { padding: 0 0 20px 0;
-  line-height: 1.3em;}
+  line-height: 1.35;}
 
 img
 { border: 0;}
@@ -131,7 +131,7 @@ ol li
 #menubar
 { width: 875px;
   height: 50px;
-  padding: 17px 0 0 0px;
+  padding: 14px 0 0 0px;
   background: transparent;}
 
 ul#menu
@@ -148,8 +148,8 @@ ul#menu li a
   font: 500 90% 'Source Sans Pro' ;
   display: block;
   float: left;
-  height: 32px;
-  padding: 10px 22px 0px 22px;
+  height: 33px;
+  padding: 12px 22px 0px 22px;
   text-align: center;
   color: #FFF;
   text-transform: uppercase;
