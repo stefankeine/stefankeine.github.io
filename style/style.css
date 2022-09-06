@@ -22,7 +22,7 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6
-{ color: #0c0c0c;
+{ color: #2b2b2b;
   padding: 0 0 5px 0;}
 
 h1, h4
@@ -46,7 +46,7 @@ h2, h5
 
 h3, h6
 { color: #121210;
-  font: 500 105% 'Source Sans Pro', sans-serif;
+  font: 500 1.05em 'Source Sans Pro', sans-serif;
   letter-spacing: 0;
   text-transform: uppercase;
   padding: 15px 0 0px 0;}
@@ -112,20 +112,20 @@ ol li
   left: 0;}
 
 #logo h1, #logo h2
-{ font: 300 235% 'Source Sans Pro', arial, sans-serif;
+{ font: 300 2.35em 'Source Sans Pro', arial, sans-serif;
   border-bottom: 0;
   text-transform: none;
   margin: 0;
 }
 
 #logo_text h1
-{ padding: 20px 0 0 10px;
+{ padding: 25px 0 0 10px;
   color: #F5F5EC;
   letter-spacing: 0.0075em;}
 
 #logo_text h2
-{ font-size: 120%;
-  padding: 6px 0 0 10px;
+{ font-size: 1.2em;
+  padding: 5px 0 0 10px;
   font-weight: 300;
   color: #c4c6ad; /* A8AA94; */}
 
@@ -146,7 +146,7 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: 500 90% 'Source Sans Pro' ;
+  font: 500 .9em 'Source Sans Pro' ;
   display: block;
   float: left;
   height: 33px;
@@ -226,7 +226,7 @@ ul#menu li.selected a
   text-decoration: none;}
 
 .yellow
-{ color: #f7c62c; 		/*#F7C015*/
+{ color: #f7cb41; 		/*#F7C015*/
 }
 
 .blue
@@ -348,7 +348,7 @@ strong .title {
 #info {
     position: absolute;
     /* font-style: italic; */
-    font-size: 110%;
+    font-size: 1.1em;
     width: 350px;
     margin-left: 15px;
     top: 520px;
@@ -366,5 +366,5 @@ strong .title {
     width: 15em;
     margin-top: -15px;
     padding: 0px 50px 100px 0px;
-    font-size: 110%;
+    font-size: 1.1em;
 }
