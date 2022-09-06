@@ -22,7 +22,7 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6
-{ color: #2b2b2b;
+{ color: #262626;
   padding: 0 0 5px 0;}
 
 h1, h4
@@ -112,7 +112,7 @@ ol li
   left: 0;}
 
 #logo h1, #logo h2
-{ font: 300 2.35em 'Source Sans Pro', arial, sans-serif;
+{ font: 400 1.85em 'Source Sans Pro', arial, sans-serif;
   border-bottom: 0;
   text-transform: none;
   margin: 0;
@@ -120,13 +120,13 @@ ol li
 
 #logo_text h1
 { padding: 25px 0 0 10px;
-  color: #F5F5EC;
+  color: #eaeae5;
   letter-spacing: 0.0075em;}
 
 #logo_text h2
-{ font-size: 1.2em;
+{ font-size: 1.1em;
   padding: 5px 0 0 10px;
-  font-weight: 300;
+  font-weight: 400;
   color: #c4c6ad; /* A8AA94; */}
 
 #menubar
@@ -146,7 +146,7 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: 500 .9em 'Source Sans Pro' ;
+  font: 500 .935em 'Source Sans Pro' ;
   display: block;
   float: left;
   height: 33px;
@@ -226,7 +226,7 @@ ul#menu li.selected a
   text-decoration: none;}
 
 .yellow
-{ color: #f7cb41; 		/*#F7C015*/
+{ color: #f7c62c; 		/*#F7C015*/
 }
 
 .blue
