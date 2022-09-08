@@ -10,7 +10,7 @@ html
 body
 { font: 300 1.035em 'Source Sans Pro', sans-serif;
   line-height: 1.35;
-  background: #F5F5EC;
+  background: #f3f3f0;		/*#F4F4EC, F5F5EC*/
   color: black; 			/*#050403*/
 }
 
@@ -112,22 +112,22 @@ ol li
   left: 0;}
 
 #logo h1, #logo h2
-{ font: 400 1.8em 'Source Sans Pro', arial, sans-serif;
+{ font: 300 2em 'Source Sans Pro', arial, sans-serif;
   border-bottom: 0;
   text-transform: none;
   margin: 0;
 }
 
 #logo_text h1
-{ padding: 30px 0 0 10px;
-  color: #eaeae5;
-  letter-spacing: 0.0075em;}
+{ padding: 27px 0 0 10px;
+  color: #ffffe0;
+  letter-spacing: 0.01em;}
 
 #logo_text h2
 { font-size: 1.075em;
   padding: 5px 0 0 10px;
   font-weight: 400;
-  color: #c4c6ad; /* A8AA94; */}
+  color: #b8b8b8; /* #c4c6ad; */ /* A8AA94; */}
 
 #menubar
 { width: 875px;
@@ -164,7 +164,7 @@ ul#menu li a:hover
 
 ul#menu li.selected a
 { color: #000;
-  background: #F4F4EC;}
+  background: #f3f3f0;}
 
 #site_content
 { width: 800px;
