@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source Sans Pro:400,400italic,600,600italic,500,500italic,200,200italic,300,300italic,350,350italic');
+@import url('https://fonts.googleapis.com/css?family=Source Sans Pro:400,400italic,600,600italic,700,700italic,500,500italic,200,200italic,300,300italic,350,350italic');
 
 html
 { height: 100%;}
@@ -8,10 +8,10 @@ html
   padding: 0;}
 
 body
-{ font: 300 1.035em 'Source Sans Pro', sans-serif;
-  line-height: 1.3;
+{ font: 300 1.0em 'Source Sans Pro', sans-serif;
+  line-height: 1.25;
   font-variant-numeric: proportional-nums;
-  background: #f3f3f0;		/*#F4F4EC, F5F5EC*/
+  background: #e7e7e6; /*#f3f3f0;		/*#F4F4EC, F5F5EC*/
   color: black;				/*#050403*/
 }
 
@@ -23,32 +23,33 @@ img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6
-{ color: #262626;
-  padding: 0 0 5px 0;}
+{ color: #303030;
+  padding: 0 0 5px 10pt;
+}
 
 h1, h4
-{ font: 500 100% 'Source Sans Pro', sans-serif;
+{ font: 600 115% 'Source Sans Pro', sans-serif;
   margin: 0 0 5px 0;
   padding: 10px 15 5px 0;
   font-variant-numeric: proportional-nums;
-  color: #010101;
   /* color: #3f3c38; */
   /* text-transform: uppercase; */
   font-style: none;
   /* font-variant: small-caps; */
-  letter-spacing: 0.01em
+  letter-spacing: 0.0em
 }
 
 h2, h5
-{ padding: 1em 0 0 0;
-  font: 500 100% 'Source Sans Pro', sans-serif;
+{ padding: .5ex 0 1ex 10pt;
+  margin-left: .5ex;
+  font: 500 1.0em 'Source Sans Pro', sans-serif;
   letter-spacing: 0;
-  /* color: #47433F; */
+  font-variant-numeric: proportional-nums;
 }
 
 h3, h6
 { color: #121210;
-  font: 500 1.05em 'Source Sans Pro', sans-serif;
+  font: 400 1.0em 'Source Sans Pro', sans-serif;
   letter-spacing: 0;
   text-transform: uppercase;
   padding: 15px 0 0px 0;}
@@ -63,7 +64,8 @@ a, a:hover
 { outline: none;
   font-weight: 400;
   text-decoration: none;
-  color:  #029708;}
+  color: #018707; /* #029708 */
+}
 
 a:hover
 { text-decoration: none;
@@ -100,33 +102,33 @@ ol li
 
 #header
 { background: #333;
-  height: 185px;
-  margin-bottom: 30px;}
+  height: 115px;
+  margin-bottom: 10px;}
 
 #logo
 { width: 840px;
   position: relative;
-  height: 114px;}
+  height: 110px;}
 
 #logo #logo_text
 { position: absolute;
-  top: 15px;
-  left: 0;}
+  top: 5px;
+  left: 2em;}
 
 #logo h1, #logo h2
-{ font: 300 2em 'Source Sans Pro', arial, sans-serif;
+{ font: 300 1.95em 'Source Sans Pro', arial, sans-serif;
   border-bottom: 0;
-  text-transform: none;
+  letter-spacing: 0pt;
   margin: 0;
 }
 
 #logo_text h1
-{ padding: 27px 0 0 10px;
+{ padding: 20px 0 0 10px;
   color: #ffffe0;
-  letter-spacing: 0.01em;}
+  letter-spacing: 0pt;}
 
 #logo_text h2
-{ font-size: 1.075em;
+{ font-size: 1.05em;
   padding: 5px 0 0 10px;
   font-weight: 400;
   color: #b8b8b8; /* #c4c6ad; */ /* A8AA94; */}
@@ -172,10 +174,10 @@ ul#menu li.selected a
 { width: 800px;
   min-height: 550px;
   overflow: hidden;
-  margin: 0 auto 0 auto;
-  padding: 30px 20px 20px 40px;
-  background: #FFF;
-  border: 1px solid #E5E5DB;}
+  margin: 0 auto 2em auto;
+  padding: 40px 20px 10px 40px;
+  background: #f4f4f4;
+  border: 1px solid #cecec5;}
 
 .sidebar
 { float: right;
@@ -328,7 +330,7 @@ table tr td
 
 .title {
     font-weight: 400;
-    color: #303030;
+    color: #202020;
 }
 
 .handouts {
@@ -348,25 +350,34 @@ strong .title {
 }
 
 #info {
-    position: absolute;
-    /* font-style: italic; */
-    font-size: 1.1em;
-    width: 350px;
-    margin-left: 15px;
+    font-size: 105%;
+    width: 430px;
+    margin-left: 0px;
     top: 520px;
+    padding-bottom: 25pt;
+    padding-left: 10pt;
     /* color: #362C20; */
 }
 
+
 #pic {
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
 }
 
 #address {
     float: right;
-    width: 15em;
+    width: 15.5em;
     margin-top: -15px;
-    padding: 0px 50px 100px 0px;
-    font-size: 1.1em;
+    padding: 0px 0px 100px 0px;
+    font-size: 105%;
+    font-variant-numeric: proportional-nums;
+}
+
+#address h2 {
+    padding: 1em 0em 0em 0em;
+    margin-left: 0em;
+    font-weight: 600;
+    font-variant-numeric: proportional-nums;
 }
