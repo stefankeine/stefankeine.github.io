@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Source Sans Pro:400,400italic,600,600italic,700,700italic,500,500italic,200,200italic,300,300italic,350,350italic');
+@import url('https://fonts.googleapis.com/css?family=Alegreya Sans:400,400italic,600,600italic,700,700italic,500,500italic,200,200italic,300,300italic,350,350italic');
 
 html
 { height: 100%;}
@@ -8,29 +8,29 @@ html
   padding: 0;}
 
 body
-{ font: 300 1.0em 'Source Sans Pro', sans-serif;
-  line-height: 1.25;
-  font-variant-numeric: proportional-nums;
+{ font: 400 1.025em 'Alegreya Sans', sans-serif;
+  line-height: 1.2;
+  font-variant-numeric: lining-nums;
   background: #e7e7e6; /*#f3f3f0;		/*#F4F4EC, F5F5EC*/
-  color: black;				/*#050403*/
+  color: #0b0b0b;
 }
 
 p
 { padding: 0 0 20px 0;
-  line-height: 1.35;}
+  }
 
 img
 { border: 0;}
 
 h1, h2, h3, h4, h5, h6
-{ color: #303030;
+{ color: #0b0b0b;
   padding: 0 0 5px 10pt;
 }
 
 h1, h4
-{ font: 600 115% 'Source Sans Pro', sans-serif;
+{ font: 600 115% 'Alegreya Sans', sans-serif;
   margin: 0 0 5px 0;
-  padding: 10px 15 5px 0;
+  padding: 10px 0 5px 17px;
   font-variant-numeric: proportional-nums;
   /* color: #3f3c38; */
   /* text-transform: uppercase; */
@@ -40,16 +40,16 @@ h1, h4
 }
 
 h2, h5
-{ padding: .5ex 0 1ex 10pt;
+{ padding: .5ex 0 1ex 9pt;
   margin-left: .5ex;
-  font: 500 1.0em 'Source Sans Pro', sans-serif;
+  font: 500 1.0em 'Alegreya Sans', sans-serif;
   letter-spacing: 0;
   font-variant-numeric: proportional-nums;
 }
 
 h3, h6
 { color: #121210;
-  font: 400 1.0em 'Source Sans Pro', sans-serif;
+  font: 400 1.0em 'Alegreya Sans', sans-serif;
   letter-spacing: 0;
   text-transform: uppercase;
   padding: 15px 0 0px 0;}
@@ -62,14 +62,13 @@ h5, h6
 
 a, a:hover
 { outline: none;
-  font-weight: 400;
+  font-weight: 500;
   text-decoration: none;
-  color: #018707; /* #029708 */
+  color:   #018707 /*  #258875       /* #018707 */
 }
 
 a:hover
 { text-decoration: none;
-  font-weight: 400;
   color: #47433F;}
 
 blockquote
@@ -102,7 +101,7 @@ ol li
 
 #header
 { background: #333;
-  height: 115px;
+  height: 105px;
   margin-bottom: 10px;}
 
 #logo
@@ -112,26 +111,26 @@ ol li
 
 #logo #logo_text
 { position: absolute;
-  top: 5px;
+  top: 0px;
   left: 2em;}
 
 #logo h1, #logo h2
-{ font: 300 1.95em 'Source Sans Pro', arial, sans-serif;
+{ font: 300 1.7em 'Alegreya Sans', arial, sans-serif;
   border-bottom: 0;
   letter-spacing: 0pt;
   margin: 0;
 }
 
 #logo_text h1
-{ padding: 20px 0 0 10px;
+{ padding: 25px 0 5px 10px;
   color: #ffffe0;
-  letter-spacing: 0pt;}
+  letter-spacing: 0.1pt;}
 
 #logo_text h2
-{ font-size: 1.05em;
-  padding: 5px 0 0 10px;
+{ font-size: .98em;
+  padding: 0px 0 0 10px;
   font-weight: 400;
-  color: #b8b8b8; /* #c4c6ad; */ /* A8AA94; */}
+  color: #b9b9b9; /* #c4c6ad; */ /* A8AA94; */}
 
 #menubar
 { width: 875px;
@@ -150,7 +149,7 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: 500 .935em 'Source Sans Pro' ;
+  font: 500 .935em 'Alegreya Sans' ;
   display: block;
   float: left;
   height: 33px;
@@ -210,7 +209,7 @@ ul#menu li.selected a
 
 #footer
 { width: 916px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Alegreya Sans', sans-serif;
   font-size: 60%;
   height: 28px;
   margin-top: 20px;
@@ -329,8 +328,8 @@ table tr td
 }
 
 .title {
-    font-weight: 400;
-    color: #202020;
+    font-weight: 500;
+    color: #0d0d0d
 }
 
 .handouts {
@@ -356,7 +355,7 @@ strong .title {
     top: 520px;
     padding-bottom: 25pt;
     padding-left: 10pt;
-    /* color: #362C20; */
+    color: #0b0b0b;
 }
 
 
@@ -372,7 +371,8 @@ strong .title {
     margin-top: -15px;
     padding: 0px 0px 100px 0px;
     font-size: 105%;
-    font-variant-numeric: proportional-nums;
+    font-variant-numeric: lining-nums;
+    color: #0b0b0b;
 }
 
 #address h2 {
@@ -380,4 +380,5 @@ strong .title {
     margin-left: 0em;
     font-weight: 600;
     font-variant-numeric: proportional-nums;
+    color: #0b0b0b
 }
