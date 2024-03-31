@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alegreya Sans:400,400italic,600,600italic,700,700italic,500,500italic,200,200italic,300,300italic,350,350italic');
+@import url('https://fonts.googleapis.com/css?family=IBM Plex Sans:400,400italic,600,600italic,700,700italic,500,500italic,200,200italic,300,300italic,350,350italic');
 
 html
 { height: 100%;}
@@ -8,9 +8,9 @@ html
   padding: 0;}
 
 body
-{ font: 400 1.025em 'Alegreya Sans', sans-serif;
-  line-height: 1.13;
-  font-variant-numeric: lining-nums;
+{ font: 400 .92em 'IBM Plex Sans', sans-serif;
+  line-height: 1.3;
+  font-variant-numeric: proportional-nums;
   background: #e7e7e6; /*#f3f3f0;		/*#F4F4EC, F5F5EC*/
   color: #0b0b0b;
 }
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6
 }
 
 h1, h4
-{ font: 600 115% 'Alegreya Sans', sans-serif;
+{ font: 600 115% 'IBM Plex Sans', sans-serif;
   margin: 0 0 5px 0;
   padding: 10px 0 5px 17px;
   font-variant-numeric: proportional-nums;
@@ -42,14 +42,14 @@ h1, h4
 h2, h5
 { padding: .5ex 0 1ex 9pt;
   margin-left: .5ex;
-  font: 500 1.0em 'Alegreya Sans', sans-serif;
+  font: 500 1.0em 'IBM Plex Sans', sans-serif;
   letter-spacing: 0;
   font-variant-numeric: proportional-nums;
 }
 
 h3, h6
 { color: #121210;
-  font: 400 1.0em 'Alegreya Sans', sans-serif;
+  font: 400 1.0em 'IBM Plex Sans', sans-serif;
   letter-spacing: 0;
   text-transform: uppercase;
   padding: 15px 0 0px 0;}
@@ -101,7 +101,7 @@ ol li
 
 #header
 { background: #333;
-  height: 105px;
+  height: 110px;
   margin-bottom: 10px;}
 
 #logo
@@ -115,26 +115,26 @@ ol li
   left: 2em;}
 
 #logo h1, #logo h2
-{ font: 300 1.7em 'Alegreya Sans', arial, sans-serif;
+{ font: 400 1.6em 'IBM Plex Sans', arial, sans-serif;
   border-bottom: 0;
   letter-spacing: 0pt;
   margin: 0;
 }
 
 #logo_text h1
-{ padding: 25px 0 5px 10px;
+{ padding: 25px 0 6px 10px;
   color: #ffffe0;
   letter-spacing: 0.1pt;}
 
 #logo_text h2
 { font-size: .98em;
   padding: 0px 0 0 10px;
-  font-weight: 400;
+  font-weight: 500;
   color: #b9b9b9; /* #c4c6ad; */ /* A8AA94; */}
 
 #menubar
 { width: 875px;
-  height: 50px;
+  height: 60px;
   padding: 14px 0 0 0px;
   background: transparent;}
 
@@ -149,7 +149,7 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: 500 .935em 'Alegreya Sans' ;
+  font: 500 .935em 'IBM Plex Sans' ;
   display: block;
   float: left;
   height: 33px;
@@ -209,7 +209,7 @@ ul#menu li.selected a
 
 #footer
 { width: 916px;
-  font-family: 'Alegreya Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 60%;
   height: 28px;
   margin-top: 20px;
@@ -329,6 +329,7 @@ table tr td
 
 .title {
     font-weight: 500;
+    font-size: 1em;
     color: #0d0d0d
 }
 
@@ -349,13 +350,14 @@ strong .title {
 }
 
 #info {
-    font-size: 105%;
+    /* font-size: 105%; */
     width: 430px;
     margin-left: 0px;
     top: 520px;
-    padding-bottom: 25pt;
+    padding-bottom: 10pt;
     padding-left: 10pt;
     color: #0b0b0b;
+    font-weight: 400;
 }
 
 
@@ -367,12 +369,13 @@ strong .title {
 
 #address {
     float: right;
-    width: 15.5em;
+    width: 17em;
     margin-top: -15px;
     padding: 0px 0px 100px 0px;
-    font-size: 105%;
+    /* font-size: 105%; */
     font-variant-numeric: lining-nums;
     color: #0b0b0b;
+    font-weight: 400;
 }
 
 #address h2 {
