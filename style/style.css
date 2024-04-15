@@ -8,7 +8,7 @@ html
   padding: 0;}
 
 body
-{ font: 400 .95em 'Bitter', sans-serif;
+{ font: 400 .925em 'Bitter', sans-serif;
   line-height: 1.35;
   font-variant-numeric: proportional-nums lining-nums;
   background: #e7e7e6; /*#f3f3f0;		/*#F4F4EC, F5F5EC*/
@@ -42,7 +42,7 @@ h1, h4
 h2, h5
 { padding: .5ex 0 1ex 9pt;
   margin-left: .5ex;
-  font: 600 .95em 'Bitter', sans-serif;
+  font: 600 .925em 'Bitter', sans-serif;
   letter-spacing: 0;
   /* font-variant-numeric: proportional-nums; */
 }
@@ -124,7 +124,7 @@ ol li
 #logo_text h1
 { padding: 30px 0 8px 10px;
   color: #ffffe0;
-  font-style: italic;
+  /* font-style: italic; */
   letter-spacing: 0pt;}
 
 #logo_text h2
@@ -351,7 +351,7 @@ strong .title {
 }
 
 #info {
-    font-size: 105%;
+    font-size: 102%;
     width: 440px;
     margin-left: 0px;
     top: 520px;
@@ -373,7 +373,7 @@ strong .title {
     width: 18em;
     margin-top: -15px;
     padding: 0px 0px 100px 0px;
-    font-size: 105%;
+    font-size: 102%;
     /* font-variant-numeric: lining-nums; */
     color: #0b0b0b;
     font-weight: 400;
