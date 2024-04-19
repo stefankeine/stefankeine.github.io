@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6
 }
 
 h1, h4
-{ font: 600 115% 'Bitter', sans-serif;
+{ font: 600 120% 'Bitter', sans-serif;
   margin: 0 0 5px 0;
   padding: 10px 0 5px 17px;
   /* font-variant-numeric: proportional-nums; */
@@ -42,7 +42,7 @@ h1, h4
 h2, h5
 { padding: .5ex 0 1ex 9pt;
   margin-left: .5ex;
-  font: 600 .925em 'Bitter', sans-serif;
+  font: 600 .95em 'Bitter', sans-serif;
   letter-spacing: 0;
   /* font-variant-numeric: proportional-nums; */
 }
@@ -115,7 +115,7 @@ ol li
   left: 2em;}
 
 #logo h1, #logo h2
-{ font: 500 1.4em 'Bitter', arial, sans-serif;
+{ font: 500 1.5em 'Bitter', arial, sans-serif;
   border-bottom: 0;
   letter-spacing: 0pt;
   margin: 0;
@@ -128,7 +128,7 @@ ol li
   letter-spacing: 0pt;}
 
 #logo_text h2
-{ font-size: .98em;
+{ font-size: 1em;
   padding: 0px 0 0 10px;
   font-weight: 500;
   color: #b9b9b9; /* #c4c6ad; */ /* A8AA94; */}
