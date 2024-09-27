@@ -9,7 +9,7 @@ html
 }
 
 body
-{ font: 400 0.99em 'IBM Plex Sans', sans-serif;
+{ font: 400 0.95em 'IBM Plex Sans', sans-serif;
   line-height: 1.22;
   font-variant-numeric: proportional-nums lining-nums;
   background: #e7e7e6; /*#f3f3f0;		/*#F4F4EC, F5F5EC*/
@@ -116,7 +116,7 @@ ol li
   left: 2em;}
 
 #logo h1, #logo h2
-{ font: 500 1.35em 'IBM Plex Sans', arial, sans-serif;
+{ font: 400 1.45em 'IBM Plex Sans', arial, sans-serif;
   border-bottom: 0;
   letter-spacing: 0pt;
   margin: 0;
@@ -131,7 +131,8 @@ ol li
 #logo_text h2
 { font-size: 1.025em;
   padding: 0px 0 0 10px;
-  font-weight: 500;
+  font-weight: 400;
+  font-style: italic;
   color: #b9b9b9; /* #c4c6ad; */ /* A8AA94; */}
 
 #menubar
