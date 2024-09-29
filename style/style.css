@@ -9,10 +9,10 @@ html
 }
 
 body
-{ font: 400 0.95em 'IBM Plex Sans', sans-serif;
+{ font: 400 95% 'IBM Plex Sans', sans-serif;
   line-height: 1.22;
   font-variant-numeric: proportional-nums lining-nums;
-  background: #e7e7e6; /*#f3f3f0;		/*#F4F4EC, F5F5EC*/
+  background: #e9e8e8; /*#f3f3f0;		/*#F4F4EC, F5F5EC*/
   color: black /* #0b0b0b; */
 }
 
@@ -116,7 +116,7 @@ ol li
   left: 2em;}
 
 #logo h1, #logo h2
-{ font: 400 1.45em 'IBM Plex Sans', arial, sans-serif;
+{ font: 500 1.35em 'IBM Plex Sans', arial, sans-serif;
   border-bottom: 0;
   letter-spacing: 0pt;
   margin: 0;
@@ -124,16 +124,16 @@ ol li
 
 #logo_text h1
 { padding: 28px 0 5px 10px;
-  color: #ffffe0;
+  color: #fffaea;
   /* font-style: italic; */
   letter-spacing: 0pt;}
 
 #logo_text h2
-{ font-size: 1.025em;
+{ font-size: 100%;
   padding: 0px 0 0 10px;
-  font-weight: 400;
-  font-style: italic;
-  color: #b9b9b9; /* #c4c6ad; */ /* A8AA94; */}
+  font-weight: 500;
+  /* font-style: italic; */
+  color: #c0c0c0; /* #c4c6ad; */ /* A8AA94; */}
 
 #menubar
 { width: 875px;
@@ -178,7 +178,7 @@ ul#menu li.selected a
   overflow: hidden;
   margin: 0 auto 2em auto;
   padding: 40px 20px 10px 40px;
-  background: #f4f4f4;
+  background: #fdf9f6;
   border: 1px solid #cecec5;}
 
 .sidebar
