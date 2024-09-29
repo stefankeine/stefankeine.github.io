@@ -12,7 +12,7 @@ body
 { font: 400 95% 'IBM Plex Sans', sans-serif;
   line-height: 1.22;
   font-variant-numeric: proportional-nums lining-nums;
-  background: #e9e8e8; /*#f3f3f0;		/*#F4F4EC, F5F5EC*/
+  background: #f4f4f4; /*; /*;		/*#F4F4EC, F5F5EC*/
   color: black /* #0b0b0b; */
 }
 
@@ -124,7 +124,7 @@ ol li
 
 #logo_text h1
 { padding: 28px 0 5px 10px;
-  color: #fffaea;
+  color: #f4f4f4;
   /* font-style: italic; */
   letter-spacing: 0pt;}
 
