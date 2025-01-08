@@ -116,14 +116,14 @@ ol li
   left: 2em;}
 
 #logo h1, #logo h2
-{ font: 400 1.4em 'IBM Plex Sans', arial, sans-serif;
+{ font: 400 1.6em 'IBM Plex Sans', arial, sans-serif;
   border-bottom: 0;
   letter-spacing: 0pt;
   margin: 0;
 }
 
 #logo_text h1
-{ padding: 28px 0 5px 10px;
+{ padding: 28px 0 4px 10px;
   color: #ffffd1 ;
   /* font-style: italic; */
   letter-spacing: 0pt;}
