@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=IBM Plex Sans:400,400italic,600,600italic,700,700italic,500,500italic,200,200italic,300,300italic,350,350italic');
+@import url('https://fonts.googleapis.com/css?family=Source Sans 3:400,400italic,600,600italic,700,700italic,500,500italic,200,200italic,300,300italic,350,350italic');
 
 html
 { height: 100%;}
@@ -9,8 +9,8 @@ html
 }
 
 body
-{ font: 400 95% 'IBM Plex Sans', sans-serif;
-  line-height: 1.22;
+{ font: 400 98% 'Source Sans 3', sans-serif;
+  line-height: 1.2;
   font-variant-numeric: proportional-nums lining-nums;
   background: #e7e7e7; /*; /*;		/*#F4F4EC, F5F5EC*/
   color: black /* #0b0b0b; */
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6
 }
 
 h1, h4
-{ font: 600 110% 'IBM Plex Sans', sans-serif;
+{ font: 600 110% 'Source Sans 3', sans-serif;
   margin: 0 0 5px 0;
   padding: 10px 0 5px 17px;
   /* font-variant-numeric: proportional-nums; */
@@ -43,14 +43,14 @@ h1, h4
 h2, h5
 { padding: .5ex 0 1ex 9pt;
   margin-left: .5ex;
-  font: 600 .95em 'IBM Plex Sans', sans-serif;
+  font: 600 100% 'Source Sans 3', sans-serif;
   letter-spacing: 0;
-  /* font-variant-numeric: lining-nums; */
+  /* font-variant-numeric: oldstyle-nums; */
 }
 
 h3, h6
 { color: #121210;
-  font: 400 1.0em 'IBM Plex Sans', sans-serif;
+  font: 400 1.0em 'Source Sans 3', sans-serif;
   letter-spacing: 0;
   text-transform: uppercase;
   padding: 15px 0 0px 0;}
@@ -116,14 +116,13 @@ ol li
   left: 2em;}
 
 #logo h1, #logo h2
-{ font: 400 1.65em 'IBM Plex Sans', arial, sans-serif;
+{ font: 500 1.6em 'Source Sans 3', arial, sans-serif;
   border-bottom: 0;
-  letter-spacing: 0pt;
   margin: 0;
 }
 
 #logo_text h1
-{ padding: 28px 0 4px 10px;
+{ padding: 28px 0 0px 10px;
   color: #ffffd1 ;
   /* font-style: italic; */
   letter-spacing: 0pt;}
@@ -131,7 +130,7 @@ ol li
 #logo_text h2
 { font-size: 100%;
   padding: 0px 0 0 10px;
-  font-weight: 500;
+  font-weight: 600;
   /* font-style: italic; */
   color: #c0c0c0; /* #c4c6ad; */ /* A8AA94; */}
 
@@ -152,7 +151,7 @@ ul#menu li
 
 ul#menu li a
 { letter-spacing: 0.1em;
-  font: 500 .935em 'IBM Plex Sans' ;
+  font: 500 .935em 'Source Sans 3' ;
   display: block;
   float: left;
   height: 33px;
@@ -212,7 +211,7 @@ ul#menu li.selected a
 
 #footer
 { width: 916px;
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
   font-size: 60%;
   height: 28px;
   margin-top: 20px;
