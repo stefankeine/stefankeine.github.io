@@ -116,7 +116,7 @@ ol li
   left: 2em;}
 
 #logo h1, #logo h2
-{ font: 500 1.6em 'Source Sans 3', arial, sans-serif;
+{ font: 400 1.5em 'Source Sans 3', arial, sans-serif;
   border-bottom: 0;
   margin: 0;
 }
@@ -130,7 +130,7 @@ ol li
 #logo_text h2
 { font-size: 100%;
   padding: 0px 0 0 10px;
-  font-weight: 600;
+  font-weight: 400;
   /* font-style: italic; */
   color: #c0c0c0; /* #c4c6ad; */ /* A8AA94; */}
 
