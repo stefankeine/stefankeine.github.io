@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6
 }
 
 h1, h4
-{ font: 700 110% 'Source Sans 3', sans-serif;
+{ font: 600 110% 'Source Sans 3', sans-serif;
   margin: 0 0 5px 0;
   padding: 10px 0 5px 17px;
   /* font-variant-numeric: proportional-nums; */
@@ -384,7 +384,7 @@ strong .title {
 #address h2 {
     padding: 1em 0em 0em 0em;
     margin-left: 0em;
-    font-weight: 700;
+    font-weight: 600;
     font-variant-numeric: proportional-nums lining-nums;
     color: #282828;
 }
@@ -401,6 +401,6 @@ hr {
 }
 
 #prof{
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: -1ex;
 }
