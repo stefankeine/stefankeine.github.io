@@ -43,7 +43,7 @@ h1, h4
 h2, h5
 { padding: .5ex 0 1ex 9pt;
   margin-left: .5ex;
-  font: 700 100% 'Source Sans 3', sans-serif;
+  font: 600 100% 'Source Sans 3', sans-serif;
   letter-spacing: 0;
   /* font-variant-numeric: oldstyle-nums; */
 }
@@ -384,7 +384,7 @@ strong .title {
 #address h2 {
     padding: 1em 0em 0em 0em;
     margin-left: 0em;
-    font-weight: 600;
+    font-weight: 700;
     font-variant-numeric: proportional-nums lining-nums;
     color: #282828;
 }
