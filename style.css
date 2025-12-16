@@ -13,7 +13,7 @@ body
 { font: 300 105% 'Source Sans 3', sans-serif;
   line-height: 1.15;
   font-variant-numeric: proportional-nums oldstyle-nums;
-  background: #eeeeee; /*; /*;		/*#F4F4EC, F5F5EC*/
+  background: #f3f3f3; /*; /*;		/*#F4F4EC, F5F5EC*/
   color: black /* #0b0b0b; */
 }
 
@@ -179,7 +179,7 @@ ul#menu li.selected a
   overflow: hidden;
   margin: 0 auto 2em auto;
   padding: 40px 20px 10px 40px;
-  background: #fdfaf7;
+  background: #fdfbf9;
   border: 1px solid #cecec5;}
 
 .sidebar
